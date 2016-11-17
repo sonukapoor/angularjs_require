@@ -5,7 +5,7 @@ Part of the optimization is to embedd the RequireJS as well.
 
 ## Getting started
 
-npm install
+```npm install
 lite-server
-
+```
  
