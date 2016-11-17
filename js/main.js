@@ -39,10 +39,9 @@ require([
     'angular-sanitize',
     'angular-animate',
     'angular-touch'
-], function($, bootstrap, angular, ngRoute, ngCookies, ngSanitize, ngAnimate, ngTouch) {
+], function ($, bootstrap, angular, ngRoute, ngCookies, ngSanitize, ngAnimate, ngTouch) {
     'use strict';
-    angular.element().ready(function() {
-        //angular.bootstrap(document, ['todomvc']);
-				angular.resumeBootstrap(['todomvc']);
+    angular.element().ready(function () {
+        angular.resumeBootstrap(['todomvc']);
     });
 });
